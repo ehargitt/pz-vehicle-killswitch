@@ -67,7 +67,6 @@ function Commands.uninstallKillswitch(player, args)
 
     -- Success
     KillswitchDb.SetOwner(args.vehicle_id, player_username)
-    player:sendObjectChange('removeItemType', { type = 'Base.ElectronicsScrap', count = args.numberOfParts })
     player:sendObjectChange('mechanicActionDone', { success = true, vehicleId = vehicle:getId(), partId = part:getId(), itemId = -1, installing = true })
 end
 
