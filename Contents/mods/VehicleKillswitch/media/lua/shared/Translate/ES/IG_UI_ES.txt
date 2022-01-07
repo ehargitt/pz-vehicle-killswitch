@@ -1,0 +1,4 @@
+IGUI_ES = {
+    IGUI_vehicle_killswitch_install = "Instalar interruptor de apagado",
+    IGUI_vehicle_killswitch_uninstall = "Desinstalar interruptor de apagado"
+}

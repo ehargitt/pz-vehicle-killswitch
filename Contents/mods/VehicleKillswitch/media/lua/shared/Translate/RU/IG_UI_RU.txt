@@ -1,0 +1,4 @@
+IGUI_RU = {
+    IGUI_vehicle_killswitch_install = "Установить аварийный выключатель",
+    IGUI_vehicle_killswitch_uninstall = "Удалить аварийный выключатель"
+}

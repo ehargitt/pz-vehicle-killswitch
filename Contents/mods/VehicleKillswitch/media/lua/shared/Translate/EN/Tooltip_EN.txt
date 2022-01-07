@@ -1,0 +1,4 @@
+Tooltip_EN = {
+    Tooltip_vehicle_killswitch_install_desc = "Installs an engine kill switch to prevent theft.",
+    Tooltip_vehicle_killswitch_uninstall_desc = "Uninstalls an engine kill switch, if you can find it..."
+}

@@ -20,7 +20,8 @@ function UninstallKillswitch:update()
 end
 
 function UninstallKillswitch:start()
-	self.item:setJobType("Install killswitch")
+	-- TODO Localization
+	self.item:setJobType(getText("IGUI_vehicle_killswitch_uninstall"))
 	self:setActionAnim("VehicleWorkOnMid")
 end
 
@@ -71,7 +72,7 @@ function UninstallKillswitch:new(character, part, item, time)
 	o.part = part
 	o.item = item
 	o.maxTime = time
-	o.jobType = "Install killswitch"
+	o.jobType = getText("IGUI_vehicle_killswitch_uninstall")
 	return o
 end
 

@@ -1,0 +1,4 @@
+Tooltip_CN = {
+    Tooltip_vehicle_killswitch_install_desc = "安装发动机停机开关以防止盗窃。",
+    Tooltip_vehicle_killswitch_uninstall_desc = "卸载发动机停机开关，如果你能找到它......"
+}

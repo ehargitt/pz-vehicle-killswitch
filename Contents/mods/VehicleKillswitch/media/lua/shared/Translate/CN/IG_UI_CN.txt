@@ -1,0 +1,4 @@
+IGUI_CN = {
+    IGUI_vehicle_killswitch_install = "安装终止开关",
+    IGUI_vehicle_killswitch_uninstall = "卸载终止开关"
+}

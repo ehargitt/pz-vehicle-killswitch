@@ -1,0 +1,4 @@
+Tooltip_ES = {
+    Tooltip_vehicle_killswitch_install_desc = "Instala un interruptor de apagado del motor para evitar robos.",
+    Tooltip_vehicle_killswitch_uninstall_desc = "Desinstala un interruptor de apagado del motor, si puede encontrarlo ... "
+}

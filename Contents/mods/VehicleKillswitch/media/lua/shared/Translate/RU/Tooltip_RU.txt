@@ -1,0 +1,4 @@
+Tooltip_RU = {
+    Tooltip_vehicle_killswitch_install_desc = "Устанавливает выключатель двигателя для предотвращения кражи.",
+    Tooltip_vehicle_killswitch_uninstall_desc = "Удаляет выключатель двигателя, если найдешь ..."
+}

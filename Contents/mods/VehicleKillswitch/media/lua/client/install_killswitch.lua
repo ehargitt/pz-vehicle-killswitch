@@ -20,7 +20,7 @@ function InstallKillswitch:update()
 end
 
 function InstallKillswitch:start()
-	self.item:setJobType("Install killswitch")
+	self.item:setJobType(getText("IGUI_vehicle_killswitch_install"))
 	self:setActionAnim("VehicleWorkOnMid")
 end
 
@@ -71,7 +71,7 @@ function InstallKillswitch:new(character, part, item, time)
 	o.part = part
 	o.item = item
 	o.maxTime = time
-	o.jobType = "Install killswitch"
+	o.jobType = getText("IGUI_vehicle_killswitch_install")
 	return o
 end
 

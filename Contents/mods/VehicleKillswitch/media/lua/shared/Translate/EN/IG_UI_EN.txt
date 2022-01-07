@@ -1,0 +1,4 @@
+IGUI_EN = {
+    IGUI_vehicle_killswitch_install = "Install kill switch",
+    IGUI_vehicle_killswitch_uninstall = "Uninstall kill switch"
+}
